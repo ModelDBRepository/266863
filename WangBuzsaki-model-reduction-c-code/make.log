@@ -1,0 +1,4 @@
+gcc -o wbpwl wbpwl.c -lm
+gcc -o wbcl wbcl.c -lm
+gcc -o wbpol wbpol.c -lm
+gcc -o wbtbl wbtbl.c -lm

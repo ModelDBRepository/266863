@@ -1,0 +1,80 @@
+Architecture:        armv7l
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  1
+Core(s) per socket:  4
+Socket(s):           1
+Vendor ID:           ARM
+Model:               3
+Model name:          Cortex-A72
+Stepping:            r0p3
+CPU max MHz:         1500.0000
+CPU min MHz:         600.0000
+BogoMIPS:            180.00
+Flags:               half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+
+
+#=== Classic ===
+30.99
+30.93
+30.94
+30.96
+30.93
+30.93
+30.96
+30.94
+30.99
+30.92
+
+
+#===   PWL   ===
+6.54
+6.54
+6.53
+6.54
+6.54
+6.54
+6.54
+6.54
+6.54
+6.53
+
+
+#===   POL   ===
+7.77
+7.76
+7.77
+7.76
+7.76
+7.77
+7.77
+7.77
+7.77
+7.77
+
+
+#===   TBL   ===
+10.49
+10.51
+10.50
+10.51
+10.51
+10.51
+10.50
+10.50
+10.51
+10.49
+
+
+#===   MIX   ===
+6.11
+6.11
+6.11
+6.12
+6.11
+6.12
+6.12
+6.12
+6.12
+6.11

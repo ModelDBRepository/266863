@@ -1,0 +1,109 @@
+<p><em>These Jupyter notebooks associated with the paper:</em></p>
+<h3 id="polynomial-piecewise-linear-step-pls-a-simple-scalable-and-efficient-framework-for-modeling-neurons">Polynomial, piecewise-Linear, Step (PLS): a simple, scalable and efficient framework for modeling neurons**</h3>
+<h4 id="by-ruben-a.-tikidji-hamburyan-and-matthew-t.-colonnese">by Ruben A. Tikidji-Hamburyan and Matthew T. Colonnese</h4>
+<hr />
+<h3 id="requirements">Requirements</h3>
+<p>To use this scripts you need <strong>Python 3.8</strong> and python’s libraries:</p>
+<ul>
+<li>numpy</li>
+<li>scipy</li>
+<li>matplotlib and LaTeX for correct graphical interface</li>
+<li>jupyter</li>
+<li>cython</li>
+<li>brian2</li>
+</ul>
+<h3 id="files-in-this-directory">Files in this directory</h3>
+<table>
+<colgroup>
+<col style="width: 48%" />
+<col style="width: 51%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">File</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">WangBuzsaki-model-reduction.ipynb</td>
+<td style="text-align: left;">Wang&amp;Buzsaki model reduction (section 2)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WangBuzsaki-model-reduction-euler.ipynb</td>
+<td style="text-align: left;">the same reduction with Euler method</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/wbcl.c</td>
+<td style="text-align: left;">c-code for <em>fully computed</em> benchmark</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/wbpol.c</td>
+<td style="text-align: left;">c-code for <em>polynomial</em> benchmark</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/wbpwl.c</td>
+<td style="text-align: left;">c-code for <em>piecewise-Linear</em> benchmark</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/wbmix.c</td>
+<td style="text-align: left;">c-code for <em>PL2D</em> benchmark</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/*.cu</td>
+<td style="text-align: left;">the same benchmarks for CUDA GPU test</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/makefile</td>
+<td style="text-align: left;">make file for building CPU (<code>make all</code>) and GPU (<code>make gpu</code>) tests</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/test-cpu.sh</td>
+<td style="text-align: left;">compile and run test of CPU</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WangBuzsaki-model-reduction-c-code/test-gpu.sh</td>
+<td style="text-align: left;">compile and run test of GPU</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PLS-Integrator.ipynb</td>
+<td style="text-align: left;">Phenomenological model: Type 1 (section 4)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PLS-Resonator.ipynb</td>
+<td style="text-align: left;">Phenomenological model: Type 2 (section 4)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Plateau-Potentials-4models.ipynb</td>
+<td style="text-align: left;">Plateau Potentials test (section 5)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pls.py</td>
+<td style="text-align: left;">Helper: PLS Families in Python</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pls.xpp</td>
+<td style="text-align: left;">Helper: PLS Families in XPP</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pls.h</td>
+<td style="text-align: left;">Helper: PLS Families in C/C++/NEURON(mod)/etc</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mrth.py</td>
+<td style="text-align: left;">General Helper</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>UPDATE</strong></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">brian2Integrator_and_Resonator.py</td>
+<td style="text-align: left;">example of Type 1 and 2 in Brian2 simulator (uses brian2pls library)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">brian2pls.py</td>
+<td style="text-align: left;">Helper: PLS Families for Brian2 (<code>numpy</code>,<code>cython</code>,<code>cpp</code> devices)</td>
+</tr>
+</tbody>
+</table>
